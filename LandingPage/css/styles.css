@@ -1,0 +1,160 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+	height: 100%;
+	margin: 0;
+    display: flex;
+}
+
+
+#topo{ 
+    width: 100%;
+    background: black;
+    color: white;
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 10%;
+    
+}
+.logo img{
+    max-width: 480px;
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+}
+.conteudo {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+}
+.conteudo div {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 25px;
+
+}
+.conteudo h3 {
+    color: #7aaa00;
+    text-align: justify;
+    font-size: 30px;
+}
+.conteudo p {
+    text-align: justify;
+    margin: 15px;
+    font-size: 20px;
+}
+.formulario {
+    background: #026000;
+    border: #374d02 solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+    height: 80%;
+    width: 60%;
+    display: block;
+}
+.formulario input[type="text"], .formulario input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0, 0, 0 / 75%);
+}
+.formulario label {
+    display: block;
+}
+
+#submit {
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #000;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 200px;
+    
+}
+#submit:active {
+    font-size: 80%;
+}
+#submit:hover {
+    color: green;
+}
+.aceite {
+    font-size: 12px;
+}
+#legenda {
+    text-align: center;
+}
+
+.conteudo-baixo {
+    border-top: solid 4px green;
+    text-align: center;
+}
+
+.conteudo-baixo h3 {
+    font-size: 30px;
+}
+
+#baixo {
+    width: 100%;
+    background: black;
+    padding: 40px;
+}
+
+.copyright{
+    display: block;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin: 20px;
+    background: #000;
+    text-align: center;
+}
+#esquerda {
+    display: inline;
+    width: 50%;
+    height: 620px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
+    background-image:  url("/LandingPage/imagens/matrix.gif");
+    
+}
+#direita {
+    display: inline;
+    width: 50%;
+    height: 620px;
+    float: right;
+    background-image: url("/LandingPage/imagens/matrix.gif");
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
+}
+
+.pzin {
+    margin: 20px;
+    background: green;
+}
+
+
+#coyote-branco img{
+    max-width: 60%;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+#info {
+        width: 100%;
+    background: black;
+    padding: 40px;
+    margin: 10px;
+}

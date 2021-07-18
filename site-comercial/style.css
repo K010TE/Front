@@ -1,0 +1,83 @@
+#frase1 {
+    font-size: 20pt;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#esquerda {
+    float: left;
+    height: 300px;
+    width: 50%;
+    color: blanchedalmond;
+    background-color: rgb(46, 46, 46);
+    margin: 0px;
+    padding: 0, 0;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#direita {
+    float: right;
+    height: 300px;
+    width: 50%;
+    background-color: rgb(212, 174, 1);
+    color: blanchedalmond;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#baixo-esquerda {
+    float: left;
+    background-color: teal;
+    height: 28rem;
+    width: 50%;
+}
+
+#btn_cadastrar {
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+    width: 180px;
+    height: 7vh;
+    font-size: 35px;
+    border: none;
+}
+
+p {
+    font-size: 20pt;
+    margin-top: 20px;
+}
+
+#info {
+    position: solid;
+    margin-top: 10px;
+    padding-top: 25px;
+    top: 25px;
+    width: 180px;
+    height: 40vh;
+    background-color: lightcoral;
+}
+
+#baixo-esquerda-direita {
+    float: right;
+    font-size: 30px;
+    width: 50%;
+    background-color: mediumblue;
+    color: mintcream;
+    text-align: center;
+}
+
+#baixo-direita{
+    float: right;
+    width: 50%;
+    height: 28rem;
+    background-color: rgb(46, 46, 46);;
+}

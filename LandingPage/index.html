@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>LandingPage</title>
+</head>
+<body>
+
+    <div id="direita">
+        <p class="pzin">.</p>
+
+        <p class="pzin">.</p>
+        <section id="topo">
+
+
+
+            <div class="conteudo">
+                <div>
+                    <h3>Fique por dentro do fantástico mundo do devir maquínico!!!!!</h3>
+                    <p>Saiba tudo sobre a relação humano-tecnologia</p>
+                    <p>Conheça os segredos do inconsciente maquínico</p>
+                    <p>Preencha o formulário e fique por dentro de tudo que rola na comunidade pós-tecnológica</p>
+
+
+                </div>
+                <div>
+                    <form class="formulario" method="POST" onSubmit="enviar()">
+                        <legend id="legenda">Preencha seus dados</legend>
+                        <input type="text" name="nome" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="telefone" placeholder="Telefone">
+                        <label class="aceite"><input type="checkbox" name="check" id="check" required>Aceito receber novidades por email</label>
+                        <input type="submit" value="ENVIAR" id="submit">
+                        
+                        <script>
+                            function enviar() {
+
+                                    alert("Dados enviados com sucesso");
+                                }
+
+                        </script>
+                    </form>
+        </section>
+    </div>
+
+    <div id="esquerda">
+        
+            <div class="conteudo">
+                
+            </div>
+            <div class="logo">
+                <img src="imagens/k010te.png" alt="Logotipo">
+            </div>
+            <div id="coyote-branco">
+                <img src="imagens/coyote-transp.png" alt="">
+            </div>
+            
+
+    </div>
+
+    <section id="baixo">
+
+
+            <p class="copyright">&copy; Copyright K010TE - 2021</p>
+
+
+    </section>
+
+
+</body>
+</html>
